@@ -1,15 +1,15 @@
 # 🧮 Calculadora - 20 Operações
 
-## 📋 Informações Gerais
+##  Informações Gerais
 
 **Título da Atividade:** Calculadora Interativa com Múltiplas Operações Matemáticas  
-**Nome do Aluno:** Aluno  
+**Nome do Aluno:** Pedro Henrique Lima Dos Santos
 **Data de Desenvolvimento:** Agosto de 2026  
 **Linguagem/Ferramenta:** Flowgorithm 2.11
 
 ---
 
-## 🎯 Objetivo do Programa
+##  Objetivo do Programa
 
 Desenvolver uma calculadora interativa que implemente e integre **20 operações matemáticas distintas**, oferecendo uma interface amigável baseada em menu. O programa demonstra a aplicação prática de conceitos fundamentais de programação como estruturas de controle (laços e condicionais), validação de entrada e tratamento de casos especiais.
 
@@ -17,7 +17,7 @@ A calculadora serve como ferramenta educacional para consolidar conhecimentos em
 
 ---
 
-## 📖 Descrição do Funcionamento
+##  Descrição do Funcionamento
 
 A calculadora funciona através de um **menu interativo em loop contínuo** que permite ao usuário escolher qual operação deseja realizar. Após selecionar uma opção numérica (1 a 20), o programa:
 
@@ -30,7 +30,7 @@ O programa continua em execução até que o usuário escolha a opção **0 - Sa
 
 ---
 
-## 📊 Relação das 20 Funções Implementadas
+##  Relação das 20 Funções Implementadas
 
 | # | Operação | Descrição |
 |---|----------|-----------|
@@ -53,9 +53,9 @@ O programa continua em execução até que o usuário escolha a opção **0 - Sa
 | 17 | **Velocidade Média** | Calcula velocidade (distância ÷ tempo) - *com validação* |
 | 18 | **Par ou Ímpar** | Classifica se um número é par ou ímpar |
 | 19 | **Comparação entre Números** | Compara dois números indicando qual é maior |
-| 20 | **IMC** ⭐ | Calcula Índice de Massa Corporal (peso ÷ altura²) com classificação |
+| 20 | **IMC**  | Calcula Índice de Massa Corporal (peso ÷ altura²) com classificação |
 
-### ⭐ Funções Obrigatórias
+###  Funções Obrigatórias
 
 - **Função #20 - IMC** (Índice de Massa Corporal)
   - Cálculo: IMC = peso (kg) ÷ altura² (m)
@@ -71,7 +71,7 @@ O programa continua em execução até que o usuário escolha a opção **0 - Sa
 
 ---
 
-## 🚀 Instruções Básicas para Execução
+##  Instruções Básicas para Execução
 
 ### Pré-requisitos
 - Ter o **Flowgorithm** instalado (versão 2.11 ou superior)
@@ -127,7 +127,7 @@ CALCULADORA
 
 ---
 
-## 💡 Características Especiais
+##  Características Especiais
 
 ✅ **Menu Interativo** - Interface amigável e intuitiva  
 ✅ **Validações** - Proteção contra divisão por zero  
@@ -138,7 +138,7 @@ CALCULADORA
 
 ---
 
-## 📝 Notas Importantes
+##  Notas Importantes
 
 - O programa utiliza **π = 3.14** para cálculos de área circular
 - **Validações especiais** estão implementadas para:
@@ -152,7 +152,7 @@ CALCULADORA
 
 ---
 
-## 📚 Conceitos Abordados
+##  Conceitos Abordados
 
 - Estruturas de controle (`while`, `if/else`)
 - Validação de entrada e tratamento de erros
@@ -161,7 +161,4 @@ CALCULADORA
 - Fluxo de programa e loops
 - Interface baseada em menu
 
----
-
-**Desenvolvido como atividade educacional de Lógica de Programação**
 
