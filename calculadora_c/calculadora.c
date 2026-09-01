@@ -141,7 +141,7 @@ int main()
         {
             printf("Digite o lado do quadrado:\n");
             scanf("%f", &lado);
-            resultado = lado * lado;
+            resultado = pow(lado, 2);
             printf("Area: %.2f\n", resultado);
         }
         else if (opcao == 12)
@@ -157,14 +157,14 @@ int main()
         {
             printf("Digite o raio do circulo:\n");
             scanf("%f", &raio);
-            resultado = 3.14 * raio * raio;
+            resultado = 3.14 * pow(raio, 2);
             printf("Area: %.2f\n", resultado);
         }
         else if (opcao == 14)
         {
             printf("Digite o lado do cubo:\n");
             scanf("%f", &lado);
-            resultado = lado * lado * lado;
+            resultado = pow(lado, 3);
             printf("Volume: %.2f\n", resultado);
         }
         else if (opcao == 15)
@@ -249,7 +249,7 @@ int main()
             }
             else
             {
-                imc = peso / (altura * altura);
+                imc = peso / pow(altura, 2);
                 printf("IMC: %.2f\n", imc);
                 if (imc < 18.5)
                 {
