@@ -1,28 +1,25 @@
 # 🧮 Calculadora em C — 20 Operações
 
-> Um programinha de linha de comando que nasceu no Flowgorithm e cresceu para virar código C de verdade.
 
----
-
-## 📖 Descrição do Projeto
+##  Descrição do Projeto
 
 Este projeto é uma **calculadora de múltiplas funções** desenvolvida em linguagem C, criada a partir da lógica de um fluxograma originalmente montado no **Flowgorithm**. A ideia foi pegar aquele desenho de blocos (setas, losangos de decisão, retângulos de processo) e "traduzi-lo" passo a passo para código C real, mantendo a mesma sequência de raciocínio, as mesmas perguntas ao usuário e as mesmas fórmulas.
 
 O resultado é um programa simples, rodando 100% no terminal, que funciona como um menu: o usuário escolhe uma operação, informa os dados pedidos, recebe o resultado na tela e volta automaticamente ao menu — até decidir sair.
 
-## 🎯 Objetivo da Calculadora
+##  Objetivo da Calculadora
 
 O objetivo principal é **praticar lógica de programação e a sintaxe básica da linguagem C**, exercitando conceitos fundamentais como:
 
 - leitura e escrita de dados no console;
-- estruturas de decisão (`if` / `else if`);
-- estruturas de repetição (`while`);
+- estruturas de decisão ( if / else if);
+- estruturas de repetição ( while );
 - uso de operadores aritméticos e relacionais;
 - aplicação de fórmulas matemáticas e de conversão em situações do dia a dia (finanças, geometria, saúde, física).
 
 Mais do que "fazer contas", o projeto busca mostrar como um fluxograma de lógica pode ser convertido em um programa funcional, real e compilável.
 
-## ✅ Funcionalidades Implementadas
+##  Funcionalidades Implementadas
 
 - Menu interativo, exibido em loop, que só é encerrado quando o usuário digita `0`;
 - 20 operações diferentes, cobrindo desde operações matemáticas simples até cálculos de geometria, finanças e saúde;
@@ -30,7 +27,7 @@ Mais do que "fazer contas", o projeto busca mostrar como um fluxograma de lógic
 - Retorno automático ao menu após cada operação, permitindo várias contas seguidas sem reiniciar o programa;
 - Uso da biblioteca `math.h` para cálculos que envolvem potência (área, volume e IMC).
 
-## 🔢 Relação das 20 Funções Desenvolvidas
+##  Relação das 20 Funções Desenvolvidas
 
 | Nº | Operação | O que faz |
 |----|-----------|-----------|
@@ -56,12 +53,12 @@ Mais do que "fazer contas", o projeto busca mostrar como um fluxograma de lógic
 | 20 | IMC | Calcula o Índice de Massa Corporal e mostra a classificação |
 | 0  | Sair | Encerra o programa |
 
-## 📚 Bibliotecas Utilizadas
+##  Bibliotecas Utilizadas
 
 - **`stdio.h`** — biblioteca padrão de entrada e saída, usada em todo o programa para `printf` (mostrar mensagens e resultados) e `scanf` (ler os dados digitados pelo usuário).
 - **`math.h`** — biblioteca matemática, usada para a função `pow(base, expoente)`, que calcula potências. Ela entra em cena nos cálculos de área do quadrado, área do círculo, volume do cubo e no cálculo do IMC (que eleva a altura ao quadrado).
 
-## 🗂️ Organização do Código
+##  Organização do Código
 
 O programa inteiro está em um único arquivo (`calculadora.c`) e segue uma estrutura bem direta, pensada para ficar fácil de acompanhar:
 
@@ -75,18 +72,18 @@ O programa inteiro está em um único arquivo (`calculadora.c`) e segue uma estr
 
 Não há funções criadas pelo programador, vetores, structs ou ponteiros — tudo acontece dentro da função `main`, de forma sequencial e fácil de explicar linha por linha.
 
-## ⚙️ Instruções para Compilação e Execução
+##  Instruções para Compilação e Execução
 
 O programa usa a biblioteca `math.h`, então, no Linux/gcc, é **necessário linkar a biblioteca matemática** com a flag `-lm`.
 
-### 🐧 Linux / macOS (terminal com gcc)
+###  Linux / macOS (terminal com gcc)
 
 ```bash
 gcc calculadora.c -o calculadora -lm
 ./calculadora
 ```
 
-### 🪟 Windows (Dev-C++, Code::Blocks, MinGW)
+###  Windows (Dev-C++, Code::Blocks, MinGW)
 
 Basta abrir o arquivo `calculadora.c` no ambiente de desenvolvimento e clicar em **Compilar e Executar**. Na maioria dessas IDEs a biblioteca `math.h` já é linkada automaticamente, sem precisar de configuração extra. Se estiver usando o MinGW pelo terminal, o comando é o mesmo do Linux:
 
@@ -95,11 +92,11 @@ gcc calculadora.c -o calculadora.exe -lm
 calculadora.exe
 ```
 
-### 💻 Compiladores on-line
+###  Compiladores on-line
 
 O código também pode ser colado diretamente em compiladores on-line de C (como o Ideone, o Repl.it ou o OnlineGDB) — nesse caso, a biblioteca `math.h` normalmente já vem pronta para uso, sem necessidade de flags adicionais.
 
-## 🧪 Exemplos de Uso
+##  Exemplos de Uso
 
 **Exemplo 1 — Soma**
 ```
@@ -140,7 +137,7 @@ Digite a opcao desejada:
 Programa encerrado.
 ```
 
-## 🧠 Conceitos de Programação Utilizados
+##  Conceitos de Programação Utilizados
 
 - **Entrada e saída de dados**: `scanf` para capturar os valores digitados pelo usuário e `printf` para exibir mensagens, menus e resultados na tela.
 - **Estruturas condicionais**: uso extensivo de `if` e `else if` para decidir qual operação executar de acordo com a opção escolhida, e também para tratar casos especiais (como divisão por zero) e classificar resultados (como as faixas do IMC).
@@ -150,12 +147,9 @@ Programa encerrado.
 - **Operador módulo (`%`)**: usado para descobrir se um número é par ou ímpar, verificando o resto da divisão por 2.
 - **Uso da biblioteca `math.h`**: a função `pow(base, expoente)` foi usada para calcular potências de forma mais clara — em vez de escrever `lado * lado`, o programa usa `pow(lado, 2)`, o que deixa explícito que se trata de uma potenciação. Essa função é aplicada na área do quadrado, na área do círculo, no volume do cubo e no cálculo do IMC.
 
-## 👤 Identificação do Estudante
+##  Identificação do Estudante
 
-**Aluno:** Aluno
+**Aluno:** Pedro Henrique Lima Dos Santos
 **Projeto:** Calculadora em C — 20 Operações
 **Origem:** Convertido a partir de um fluxograma desenvolvido no Flowgorithm
 
----
-
-*Feito com `printf`, `scanf`, muito café ☕ e um pouquinho de `math.h`.*
