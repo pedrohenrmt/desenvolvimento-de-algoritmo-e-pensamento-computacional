@@ -109,4 +109,6 @@ O projeto tem como objetivo colocar em prática os conceitos de **estruturas de 
 ## Autor
 
 Desenvolvido por **Pedro Henrique Lima Dos Santos**.
+Professora: **Karla Sartin**.
+Disciplina: **Algoritimos e Pensamento Computacional**.
 
