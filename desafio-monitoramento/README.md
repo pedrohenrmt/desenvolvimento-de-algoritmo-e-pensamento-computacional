@@ -94,7 +94,7 @@ Caso seja digitado algo que não seja um número, o programa informa:
 
 text
 Entrada invalida! Digite um numero.
-```
+
 
 Além disso, o limite de temperatura precisa ser maior que zero.
 
