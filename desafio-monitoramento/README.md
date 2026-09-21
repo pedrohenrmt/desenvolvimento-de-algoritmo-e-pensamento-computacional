@@ -76,7 +76,7 @@ Nesse exemplo, foram informadas 3 temperaturas consecutivas acima de 50 °C, ent
 
 Quando o programa é encerrado, ele mostra um relatório com os resultados:
 
-```text
+text
 === RELATORIO FINAL ===
 Limite: 50.00
 Quantidade de temperaturas: 4
@@ -84,7 +84,7 @@ Media: 62.50
 Maior temperatura: 80.00
 Menor temperatura: 40.00
 Acima do limite: 3
-```
+
 
 ## Validação
 
@@ -92,7 +92,7 @@ O programa também verifica se o usuário digitou um número válido.
 
 Caso seja digitado algo que não seja um número, o programa informa:
 
-```text
+text
 Entrada invalida! Digite um numero.
 ```
 
@@ -108,6 +108,5 @@ O projeto tem como objetivo colocar em prática os conceitos de **estruturas de 
 
 ## Autor
 
-Desenvolvido por **Pedro Henrique**.
+Desenvolvido por **Pedro Henrique Lima Dos Santos**.
 
-Projeto acadêmico desenvolvido para a disciplina de programação.
