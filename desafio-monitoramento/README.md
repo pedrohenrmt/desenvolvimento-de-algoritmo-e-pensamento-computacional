@@ -28,21 +28,21 @@ Durante a execução, o programa:
 
 Neste projeto foram utilizadas principalmente as estruturas de repetição estudadas em aula:
 
-- `do...while`
-- `while`
+- do...while
+- while
 
-O `do...while` foi utilizado para pedir o limite de temperatura e verificar se o valor informado é válido.
+O do...while foi utilizado para pedir o limite de temperatura e verificar se o valor informado é válido.
 
-O `while` foi utilizado para continuar recebendo temperaturas até que aconteçam 3 temperaturas consecutivas acima do limite.
+O while foi utilizado para continuar recebendo temperaturas até que aconteçam 3 temperaturas consecutivas acima do limite.
 
 Também foram utilizados:
 
-- `if`
-- `else`
-- variáveis do tipo `int`
-- variáveis do tipo `float`
-- `scanf`
-- `printf`
+- if
+- else
+- variáveis do tipo int
+- variáveis do tipo float
+- scanf
+- printf
 
 ## Como funciona
 
@@ -56,7 +56,7 @@ Digite o limite de temperatura: 50
 
 Depois, o programa começa a pedir as temperaturas:
 
-```text
+text
 Digite a temperatura: 40
 Dentro do limite.
 
@@ -68,7 +68,7 @@ Acima do limite!
 
 Digite a temperatura: 80
 Acima do limite!
-```
+
 
 Nesse exemplo, foram informadas 3 temperaturas consecutivas acima de 50 °C, então o programa é encerrado.
 
