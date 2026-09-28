@@ -2,7 +2,7 @@
 
 ## Identificação do estudante
 
-- **Nome:** Guth Henry Riquelmes
+- **Nome:** Pedro Henrique Lima Dos Santos
 - **Curso:** Análise e Desenvolvimento de Sistemas (ADS)
 - **Instituição:** Centro Universitário do Distrito Federal (UDF)
 - **Disciplina:** Estruturas de Dados
