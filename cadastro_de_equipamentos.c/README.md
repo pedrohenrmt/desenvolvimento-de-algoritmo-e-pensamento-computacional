@@ -2,9 +2,8 @@
 
 Atividade prática da disciplina Desenvolvimento de Algoritmos e Programação em C, do curso de Análise e Desenvolvimento de Sistemas (UDF - Centro Universitário do Distrito Federal).
 
-- Aluno: Pedro
+- Aluno: Pedro Henrique Lima Dos Santos
 - Professora: Karla Roberto Sartin
-- Valor da atividade: 0,5 ponto
 
 ## Sobre o projeto
 
