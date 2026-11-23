@@ -169,7 +169,7 @@ int calcularInversa(double matriz[MAX][MAX], double inversa[MAX][MAX], int taman
 int cadastrarMatrizes(double matrizes[MAX][MAX][MAX], int linhas[MAX], int colunas[MAX]) {
     int quantidade, i;
 
-    printf("=== CALCULADORA DE MATRIZES ===\n");
+    printf(" CALCULADORA DE MATRIZES\n");
     printf("Quantas matrizes deseja cadastrar (2 a 10)? ");
     quantidade = lerInteiro(2, MAX);
 
