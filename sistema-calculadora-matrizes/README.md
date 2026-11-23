@@ -3,8 +3,8 @@
 **Curso:** Análise e Desenvolvimento de Sistemas (ADS)  
 **Semestre:** 2º semestre  
 **Disciplina:** Algoritmos e Pensamento Computacional  
-**Aluno:** __________________________________________  
-**Professor:** ______________________________________  
+**Aluno:** Pedro Henrique Lima
+**Professora:** Karla 
 
 ## 1. Objetivo
 
@@ -102,7 +102,6 @@ O programa retorna ao menu após mostrar o resultado. Se as dimensões forem inc
 ## 8. Funções implementadas
 
 | Função | Responsabilidade |
-| --- | --- |
 | `limparEntrada()` | Descarta o restante do texto digitado após uma leitura. |
 | `lerInteiro()` | Lê um número inteiro e verifica se está dentro do intervalo permitido. |
 | `lerNumero()` | Lê um elemento numérico da matriz. |
